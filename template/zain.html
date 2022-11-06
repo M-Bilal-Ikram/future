@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><table></table></title>
+</head>
+<body>
+<table border="4px">
+      <tbody>
+        <tr>
+            {% for n in Name %}
+          <td>{{n}}</td>
+          {% endfor %}
+        </tr>
+        {% for y in Class %}
+        <tr>
+          <td>{{y}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</body>
+</html>
